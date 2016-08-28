@@ -32,7 +32,7 @@ var switchAge = function(age) {
     switch (age >= 13 && age <= 19) {
         case true:
             return 'You are a teenager';
-        case false:
+        case age < 13 || age > 19:
             return 'You are not a teenager';
         default:
             return 'You have an age';
