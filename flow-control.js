@@ -4,12 +4,12 @@ function basicTeenager(age) {
 }
 
 function teenager(age) {
-if ("basicTeenager")
+if (age >= 13 && age <= 19)
+{
 return "You are a teenager!"
-}
-if ("teenager") {
-  return "you are not a teenager" }
-}  else {
+} if (age >= 13 && age <= 19) {
+  return "grownup"
+} else {
   return "you are not a teenager"
 }
 
