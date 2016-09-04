@@ -29,27 +29,27 @@ function ternaryTeenager(age) {
 function switchAge(age) {
     switch (age) {
         case 13:
-            return "You have an age";
+            return "You are a teenager";
             break;
         case 14:
-            return "You have an age";
+            return "You are a teenager";
             break;
         case 15:
-            return "You have an age";
+            return "You are a teenager";
             break;
         case 16:
-            return "You have an age";
+            return "You are a teenager";
             break;
         case 17:
-            return "You have an age";
+            return "You are a teenager";
             break;
         case 18:
-            return "You have an age";
+            return "You are a teenager";
             break;
         case 19:
-            return "You have an age";
+            return "You are a teenager";
             break;
         default:
-            return "I don't recognize that age."
+            return "You have an age";
     }
 }
