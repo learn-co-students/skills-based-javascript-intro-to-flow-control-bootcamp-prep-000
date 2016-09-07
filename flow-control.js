@@ -24,7 +24,7 @@ if (age>=13 && age<=19) {
 
 
 function ternaryTeenager(age) {
-
+return "You " + (age<13 || age>19 ? "are not " : "are ") + "a teenager"
 }
 
 function switchAge(age) {
