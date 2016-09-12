@@ -36,7 +36,7 @@ function switchAge(age) {
       return "You are not a teenager";
       break;
     default:
-      "You have an age"
+      return "You have an age"
 
   }
 }
