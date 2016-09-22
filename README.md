@@ -45,12 +45,12 @@ JavaScript lets us compare things. Most of these comparisons come straight from 
 We can ask if something is greater than something else:
 
 ``` javascript
+
 5 > -1 // true
 5 > 5 // false
 20 > 30 // false
 'gamma' > 'beta' // true (!)
 ```
-
 We can even ask if something is less-than-or-equal-to something else:
 
 ``` javascript
@@ -128,9 +128,9 @@ You'll be writing your code in `flow-control.js`. Make sure to run the tests usi
 
 ### `if` Statements
 
-`if` statements look like this:
 
 ``` javascript
+`if` statements look like this:
 if (something) {
   // do something
 }
