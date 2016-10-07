@@ -9,7 +9,7 @@ function teenager(age) {
     return 'You are a teenager!'
   }
     return "you are not a teenager";
-}}
+}
 
 function ageChecker(age) {
   if (age => 13 && age <= 19){
