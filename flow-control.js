@@ -1,3 +1,4 @@
+console.log("Hi!")
 function basicTeenager(age) {
 
 }
