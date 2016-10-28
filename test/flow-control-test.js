@@ -6,7 +6,7 @@ const path = require('path')
 describe('flow-control', () => {
 
   before(done => {
-    const src = path.resolve(__dirname, '..', 'flow-control.js')
+    const src = path.resolve('./flow-control.js')
 
     jsdom.env('<div></div>', [src], (err, window) => {
       if (err) {
@@ -69,12 +69,12 @@ describe('flow-control', () => {
 
   describe('switchAge', () => {
     it('should return "You are a teenager" if age is between 13-19', () => {
-      expect(switchAge(15)).toEqual("You are a teenager")
+      expect(switchAge('15')).toEqual("You are a teenager")
     })
 
     it('should return "You are not a teenager" if age not between 13-19', () => {
-      expect(switchAge(75)).toEqual("You have an age")
-      expect(switchAge(7)).toEqual("You have an age")
+      expect(switchAge('75')).toEqual("You have an age")
+      expect(switchAge('7')).toEqual("You have an age")
     })
   })
 })
