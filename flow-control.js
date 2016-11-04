@@ -1,11 +1,11 @@
 function basicTeenager(age) {
-  if(ageChecker(age) == "You are a teenager!") {
+  if(ageChecker(age) === "You are a teenager!") {
     return ageChecker(age)
   }else return
 }
 
 function teenager(age) {
-  if(ageChecker(age) == "You are a teenager!") {
+  if(ageChecker(age) === "You are a teenager!") {
     return ageChecker(age)
   }else return "You are not a teenager"
 }
@@ -22,13 +22,13 @@ function ageChecker(age) {
 }
 
 function ternaryTeenager(age) {
-  if(ageChecker(age) == "You are a teenager!") {
+  if(ageChecker(age) === "You are a teenager!") {
     return "You are a teenager"
   }else return "You are not a teenager"
 }
 
 function switchAge(age) {
-  if(ageChecker(age) == "You are a teenager!") {
+  if(ageChecker(age) === "You are a teenager!") {
     return "You are a teenager"
   }else return "You have an age"
 }
