@@ -21,7 +21,7 @@ function ageChecker(age) {
 } else {
       return "You are a grownup";
 }
-
+}
 function ternaryTeenager(age) {
 
 }
