@@ -1,0 +1,35 @@
+[33m401eb11[m Old code that is not working [31m(K D, 25 seconds ago)[m
+[33med61848[m Add more explanation, add debugger, use expect [31m(Charles Pletcher, 4 months ago)[m
+[33mb6b6a83[m Merge pull request #11 from ktravers/ktravers-1467592802 [31m(Charles Pletcher, 5 months ago)[m
+[33m9d445ae[m grammar [31m(Kate Travers, 5 months ago)[m
+[33m980730e[m Remove requires.yml [31m(Charles Pletcher, 5 months ago)[m
+[33mb427609[m Merge pull request #6 from aturkewi/aturkewi-1467164437 [31m(Charles Pletcher, 5 months ago)[m
+[33mcd61da0[m Merge pull request #4 from aturkewi/aturkewi-1467161867 [31m(Charles Pletcher, 5 months ago)[m
+[33mef78d67[m Merge pull request #9 from learn-co-curriculum/remove-sol [31m(Charles Pletcher, 5 months ago)[m
+[33m3ab0aa1[m Remove solution from flow-control.js [31m(Avidor Turkewitz, 5 months ago)[m
+[33m1a78481[m Remove reference to previous talk of ternary operator [31m(Avidor Turkewitz, 5 months ago)[m
+[33mfac3853[m correct stated JS return value [31m(Avidor Turkewitz, 5 months ago)[m
+[33m025d3a6[m Fix typo in README.md [31m(Charles Pletcher, 6 months ago)[m
+[33m52915ea[m Move section on comparisons and booleans here [31m(Charles Pletcher, 6 months ago)[m
+[33me7c6f51[m Move tests to mocha [31m(Charles Pletcher, 7 months ago)[m
+[33m4a16f86[m Update for skills-based js track [31m(Charles Pletcher, 7 months ago)[m
+[33me224276[m Merge pull request #8 from bhollan/master [31m(AnnJohn, 7 months ago)[m
+[33m428853a[m My choice, but you guys can go the other way [31m(Brian Holland, 7 months ago)[m
+[33mb3272a5[m Merge pull request #6 from bradleyoashburn/bradleyoashburn-1458865429 [31m(AnnJohn, 8 months ago)[m
+[33m0004af0[m Corrected desired output in #ageChecker to match expected result in Jasmine test [31m(Bradley Ashburn, 8 months ago)[m
+[33m41dbcdf[m Merge pull request #3 from learn-co-curriculum/wip [31m(AnnJohn, 10 months ago)[m
+[33mc186f0c[m case statement example [31m(vicfriedman, 11 months ago)[m
+[33m9bec8bc[m Update README.md [31m(Ian Candy, 11 months ago)[m
+[33m86acbcb[m remove second "case statements" [31m(Ian Candy, 11 months ago)[m
+[33m5d1d180[m remove duplicate objective and fix typo [31m(Ian Candy, 11 months ago)[m
+[33md9b65ad[m cleaup [31m(vicfriedman, 12 months ago)[m
+[33m3856eee[m codealong [31m(vicfriedman, 12 months ago)[m
+[33me68a54d[m add learn link [processing skip] [31m(Adam Jonas, 1 year ago)[m
+[33m7209b74[m add contributing file [31m(deniznida, 1 year, 1 month ago)[m
+[33mc3aa7ab[m fixes typos [31m(deniznida, 1 year, 1 month ago)[m
+[33md45963e[m Merge pull request #1 from kthffmn/master [31m(Katie Hoffman, 1 year, 5 months ago)[m
+[33m66c6987[m add resource count, tags, update switch content [31m(Katie Hoffman, 1 year, 5 months ago)[m
+[33m9f98bf2[m change header [31m(Katie Hoffman, 1 year, 5 months ago)[m
+[33m689c00f[m remove github's pre-built header [31m(Katie Hoffman, 1 year, 5 months ago)[m
+[33m02b2376[m Initial commit [31m(Katie Hoffman, 1 year, 5 months ago)[m
+[33m4b909e5[m add content [31m(Katie Hoffman, 1 year, 5 months ago)[m
