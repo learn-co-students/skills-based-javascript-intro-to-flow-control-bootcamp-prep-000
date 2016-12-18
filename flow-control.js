@@ -29,17 +29,13 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
-  console.log("age is " + age);
+  // Yes this defeats the purpose of a switch statement
+  // though the accepted solution is a trivial way of solving 
   switch (true) {
     case (age >= 13 && age <= 19):
-      console.log("Teenager");
       return "You are a teenager";
       break;
-    default:
-      console.log("Not teenager");
+    default
       return "You have an age";
   }
 }
-
-switchAge(4);
-switchAge(14);
