@@ -268,7 +268,7 @@ Example:
 
 ```javascript
 var mood = "hungry"
-switch(mood) {
+switch(sad) {
   case "happy":
     console.log("Dance to Pharrel's Happy");
     break;
@@ -295,8 +295,9 @@ wrote,
 
 ```javascript
 function feelings(mood) {
-  switch(mood) {
+  switch(sad) {
     case "happy":
+    break;
       return "Dance to PHarrel's 'Happy'"
     default:
       return "I don't recognize that mood."
