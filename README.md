@@ -319,3 +319,60 @@ _block_ and does not (generally speaking) have a value associated with it.
 * [Codecademy - Switch Statements](http://www.codecademy.com/glossary/javascript/switch-statements)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/skills-based-javascript-intro-to-flow-control'>JavaScript Flow Control</a> on Learn.co and start learning to code for free.</p>
+
+
+function switchAge(age) {
+switch (age) {
+  case age === 13:
+    "You are a teenager";
+    break;
+  case age === 14:
+    "You are a teenager";
+    break;
+  case age === 15:
+    "You are a teenager";
+    break;
+  case age === 16:
+    "You are a teenager";
+    break;
+  case age === 17:
+    "You are a teenager";
+    break;
+  case age === 18:
+    "You are a teenager";
+    break;
+  case age === 19:
+    "You are a teenager";
+    break;
+  default:
+    "You have an age";
+}
+}
+
+function switchAge(age) {
+switch (age) {
+  case 13:
+    console.log("You are a teenager");
+    break;
+  case 14:
+    console.log("You are a teenager");
+    break;
+  case 15:
+    console.log("You are a teenager");
+    break;
+  case 16:
+    console.log("You are a teenager");
+    break;
+  case 17:
+    console.log("You are a teenager");
+    break;
+  case 18:
+    console.log("You are a teenager");
+    break;
+  case 19:
+    console.log("You are a teenager");
+    break;
+  default:
+    console.log("You have an age");
+}
+}
