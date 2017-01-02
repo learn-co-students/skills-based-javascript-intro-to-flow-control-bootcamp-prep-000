@@ -4,7 +4,6 @@ function basicTeenager (age){
  }
 }
 
-/* <=== start a comment here
 
 function teenager (age)
 {if (age >= 13 && age <= 19)
@@ -47,5 +46,4 @@ function switchAge(age) {
    }
 }
 
-    */ <===end the comment
-here
+    
