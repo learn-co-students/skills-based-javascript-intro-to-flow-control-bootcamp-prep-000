@@ -4,6 +4,7 @@ function basicTeenager (age){
  }
 }
 
+/* <=== start a comment here
 
 function teenager (age)
 {if (age >= 13 && age <= 19)
@@ -32,7 +33,7 @@ function ternaryTeenager (age)
 
 
 function switchAge(age) {
-  switch (age): {
+  switch(age) {
     case 13:
     case 14:
     case 15:
@@ -45,3 +46,6 @@ function switchAge(age) {
      return 'You have an age';
    }
 }
+
+    */ <===end the comment
+here
