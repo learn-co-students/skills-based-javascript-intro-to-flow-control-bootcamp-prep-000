@@ -1,20 +1,20 @@
 function basicTeenager(age) {
     if (age >= 13 && age <= 19)
-        return {
+     {    return
             'You are a teenager!'
         };
 }
 
-/* function teenager(age) {
+function teenager(age) {
     if (age <= 19 && age >= 13) {
          return ('You are a teenage!');
     } else {
         return ('You are not a teenager!');
     }
 }
-*/
 
-/* function ageChecker(age) {
+
+ function ageChecker(age) {
     if (age >= 13 && age <= 19) {
         return ('You are a teenager!');
    } else if (age <= 12) {
@@ -23,15 +23,14 @@ function basicTeenager(age) {
         return ('You are a grownup')
     }
 }
-*/
 
-/*function ternaryTeenager(age) {
-    {
-        return (age >= 13 && age <= 19) ? 'You are a teenager' : 'You are not a teenager' {
+
+function ternaryTeenager(age) {
+            return (age >= 13 && age <= 19) ? 'You are a teenager' : 'You are not a teenager' 
 
        }
-*/
-  /*      function switchAge(age) {
+
+       function switchAge(age) {
            switch (age) {
                case 13:
                case 14:
@@ -45,4 +44,53 @@ function basicTeenager(age) {
                    return 'You have an age';
          }
        }
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
