@@ -297,7 +297,7 @@ wrote,
 function feelings(mood) {
   switch(mood) {
     case "happy":
-      return "Dance to PHarrel's 'Happy'"
+      return "Dance to PHarrel's 'Happy' like mad!"
     default:
       return "I don't recognize that mood."
   }
