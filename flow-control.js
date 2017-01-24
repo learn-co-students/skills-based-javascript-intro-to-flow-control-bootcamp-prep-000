@@ -21,7 +21,7 @@ function ageChecker(age) {
     return "You are a kid";
   }
   else {
-    Return "You are a grownup";
+    return "You are a grownup";
   }
 }
 
@@ -30,5 +30,16 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
-
+  switch(age) {
+    case 13:
+    case 14:
+    case 15:
+    case 16:
+    case 17:
+    case 18:
+    case 19:
+      return "You are a teenager";
+    default:
+      return "You have an age";
+  }
 }
