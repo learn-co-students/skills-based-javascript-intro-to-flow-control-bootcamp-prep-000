@@ -50,6 +50,7 @@ function switchAge(age) {
     break;
     case "19":
     console.log("You are a teenager");
+    break;
     default:
     console.log("You have an age");
     
