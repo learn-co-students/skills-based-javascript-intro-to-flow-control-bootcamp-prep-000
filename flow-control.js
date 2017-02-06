@@ -38,8 +38,8 @@ function switchAge(age) {
       case 16:
       case 17:
       case 18:
-      case 19:
-        return "You are a teenager"; //19
+      case 19://smoothed out cases
+        return "You are a teenager";
         break;
       default:
         return "You have an age"; //outside of teenager age range
