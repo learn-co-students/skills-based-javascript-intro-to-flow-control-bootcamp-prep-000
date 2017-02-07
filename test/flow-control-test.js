@@ -21,6 +21,18 @@ describe('flow-control', () => {
     })
   })
 
+  function basicTeenager(age) {
+    if(age >= 13 && age <= 19) {
+      return("You are a teenager!")
+    }
+    else {
+      return(undefined)
+    }
+
+
+
+  }
+
   describe('basicTeenager', () => {
     it('should return "You are a teenager!" if the age is between 13-19', () => {
       expect(basicTeenager(13)).toEqual("You are a teenager!");
@@ -32,6 +44,15 @@ describe('flow-control', () => {
 
   })
 
+  function teenager(age) {
+    if(age >= 13 && age <= 19) {
+      return("You are a teenager!")
+    }
+    else {
+      return("You are not a teenager")
+    }
+  }
+
   describe('teenager', () => {
     it('should return "You are a teenager!" if the age is between 13-19', () => {
       expect(teenager(13)).toEqual("You are a teenager!")
@@ -42,6 +63,18 @@ describe('flow-control', () => {
       expect(teenager(29)).toEqual("You are not a teenager")
     })
   })
+
+  function ageChecker(age) {
+    if(age >= 13 && age <= 19) {
+      return("You are a teenager!")
+    }
+    else if(age < 13) {
+       return("You are a kid")
+    }
+    else {
+      return("You are a grownup")
+    }
+  }
 
   describe('ageChecker', () => {
     it('should return "You are a teenager!" if the age is between 13-19', () => {
@@ -57,6 +90,15 @@ describe('flow-control', () => {
     })
   })
 
+  function ternaryTeenager(age) {
+    if(age >= 13 && age <= 19) {
+      return("You are a teenager")
+    }
+    else {
+      return("You are not a teenager")
+    }
+  }
+
   describe('ternaryTeenager', () => {
     it('should return "You are a teenager" if age is between 13-19', () => {
       expect(ternaryTeenager(15)).toEqual("You are a teenager")
@@ -66,6 +108,15 @@ describe('flow-control', () => {
       expect(ternaryTeenager(75)).toEqual("You are not a teenager")
     })
   })
+
+  function switchAge(age) {
+    switch(age) {
+      case 15:
+        return "You are a teenager"
+      default:
+        return "You have an age"
+    }
+  }
 
   describe('switchAge', () => {
     it('should return "You are a teenager" if age is between 13-19', () => {
