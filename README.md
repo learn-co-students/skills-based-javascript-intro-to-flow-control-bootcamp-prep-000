@@ -319,3 +319,15 @@ _block_ and does not (generally speaking) have a value associated with it.
 * [Codecademy - Switch Statements](http://www.codecademy.com/glossary/javascript/switch-statements)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/skills-based-javascript-intro-to-flow-control'>JavaScript Flow Control</a> on Learn.co and start learning to code for free.</p>
+function basic teenager(){
+console.log(Basic teenager)
+
+function basicTeenager(age){
+  if (age > 12 && age <= 19) {
+   "You're a teenager"
+ }
+ else if (age < 13) {
+  "You're a kid"
+ }    
+}
+function basicTeenager(age) {if (age >=13 && age <=19) {return "You are a teenager!"}}

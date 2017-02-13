@@ -35,3 +35,34 @@ educational content. Everything from fixing typos, to correcting
 out-dated information, to improving exposition, to adding better examples,
 to fixing tests—all contributions to making the curriculum more effective are
 welcome.
+
+function basicTeenager(age){
+  if (age > 12 && age <= 19) {
+   "You're a teenager"  // "You are a teenager"
+ }
+ else if (age < 13) {
+   "You're a kid"
+ }    // return something else here
+}
+
+function ageChecker(age) {
+ if (age >= 13 && <= 19) 
+   "You're a teenager!"
+    (age < =12)
+  "You're a kid"
+  else if (age < = 12){
+   "You're a kid"
+  else if (age > 19) 
+    "You're a grownup"
+}
+
+function switchAge (age) {
+  if(age>= 13 && <= 19)
+   "You're a teenager!":
+   "You have an age";
+}
+function ternaryTeenager (age) {
+  return (age >=13 && <= 19)?
+  "You are a teenager":
+  "You are not a teenager";
+}  
