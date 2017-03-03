@@ -60,6 +60,7 @@ describe('flow-control', () => {
   describe('ternaryTeenager', () => {
     it('should return "You are a teenager" if age is between 13-19', () => {
       expect(ternaryTeenager(15)).toEqual("You are a teenager")
+      //expect(addTwoNumbers(4,5).toEqual(9)
     })
 
     it('should return "You are not a teenager" if age not between 13-19', () => {
