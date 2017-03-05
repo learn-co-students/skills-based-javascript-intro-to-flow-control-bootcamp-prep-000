@@ -1,3 +1,4 @@
+
 function basicTeenager(age) {
   if (age >= 13 && age <= 19) {
 return ("You are a teenager!");
@@ -22,7 +23,7 @@ ageChecker(24);
 
 function teenager(age){
 if (age >=13 && age <=20){
-return("You are a teenager")
+return("You are a teenager!")
 }
 
 else (age <13 && age >19 )
@@ -49,8 +50,7 @@ function ternaryTeenager(age){
   return (age >=13 && age <=19 ? "teenager" : "adult")
 }
 ternaryTeenager(14);
-```
-```javascript
+
 var mood = "hungry"
 switch(mood) {
   case "happy":
@@ -95,6 +95,3 @@ switch(age){
 }
 }
 SwitchAge(12);
-
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/skills-based-javascript-intro-to-flow-control'>JavaScript Flow Control</a> on Learn.co and start learning to code for free.</p>
