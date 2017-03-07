@@ -37,9 +37,9 @@ describe('flow-control', () => {
       expect(teenager(13)).toEqual("You are a teenager!")
     })
 
-    it('should return "you are not a teenager" if the age is not between 13-19', () => {
-      expect(teenager(12)).toEqual("You are not a teenager")
-      expect(teenager(29)).toEqual("You are not a teenager")
+    it('should return "You\'ve won a polar pop!" if the age is not between 13-19', () => {
+      expect(teenager(12)).toEqual("You\'ve won a polar pop!")
+      expect(teenager(29)).toEqual("You\'ve won a polar pop!")
     })
   })
 
