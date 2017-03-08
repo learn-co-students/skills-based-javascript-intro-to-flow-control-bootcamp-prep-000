@@ -17,8 +17,7 @@ In programming, when we check for a statement in this way, we check to see wheth
 ## Comparisons
 
 The example above might be written, in pseudo-JavaScript (for once, this won't work in the browser console), like this:
-
-``` javascript
+'' javascript
 if (lightIsGreen) {
   go()
 } else if (lightIsRed) {
