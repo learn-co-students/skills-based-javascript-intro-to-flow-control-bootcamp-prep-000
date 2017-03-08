@@ -20,7 +20,12 @@ describe('flow-control', () => {
       return done()
     })
   })
-
+function basicTeenager(age){
+  if (age <= 19 && age >= 13){
+    return ("You are a teenager!")
+  }
+  
+}
   describe('basicTeenager', () => {
     it('should return "You are a teenager!" if the age is between 13-19', () => {
       expect(basicTeenager(13)).toEqual("You are a teenager!");
@@ -31,7 +36,14 @@ describe('flow-control', () => {
     })
 
   })
-
+function teenager(age){
+  if (age <=19 && age >= 13){
+    return ("You are a teenager!");
+  }
+  else{
+    return("You are not a teenager");
+  }
+}
   describe('teenager', () => {
     it('should return "You are a teenager!" if the age is between 13-19', () => {
       expect(teenager(13)).toEqual("You are a teenager!")
@@ -42,6 +54,17 @@ describe('flow-control', () => {
       expect(teenager(29)).toEqual("You are not a teenager")
     })
   })
+function ageChecker(age){
+  if (age<=19 && age >=13){
+    return ("You are a teenager!");
+  }
+  else if(age < 13){
+    return ("You are a kid");
+  }
+  else{
+    return ("You are a grownup");
+  }
+  }
 
   describe('ageChecker', () => {
     it('should return "You are a teenager!" if the age is between 13-19', () => {
@@ -56,7 +79,9 @@ describe('flow-control', () => {
       expect(ageChecker(29)).toEqual("You are a grownup")
     })
   })
-
+function ternaryTeenager(age){
+  return age<=19 && age >=13? "You are a teenager": "You are not a teenager"
+}
   describe('ternaryTeenager', () => {
     it('should return "You are a teenager" if age is between 13-19', () => {
       expect(ternaryTeenager(15)).toEqual("You are a teenager")
@@ -66,7 +91,15 @@ describe('flow-control', () => {
       expect(ternaryTeenager(75)).toEqual("You are not a teenager")
     })
   })
-
+function switchAge(age){
+switch (age<= 19 && age >= 13){
+case true:
+return ("You are a teenager");
+break;
+default:
+return ("You have an age");
+}
+}
   describe('switchAge', () => {
     it('should return "You are a teenager" if age is between 13-19', () => {
       expect(switchAge(15)).toEqual("You are a teenager")
