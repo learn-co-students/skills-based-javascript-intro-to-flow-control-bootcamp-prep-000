@@ -73,8 +73,8 @@ describe('flow-control', () => {
     })
 
     it('should return "You are not a teenager" if age not between 13-19', () => {
-      expect(switchAge(75)).toEqual("You have an age")
-      expect(switchAge(7)).toEqual("You have an age")
+      expect(switchAge(75)).toEqual("You are not a teenager")
+      expect(switchAge(7)).toEqual("You are not a teenager")
     })
   })
 })
