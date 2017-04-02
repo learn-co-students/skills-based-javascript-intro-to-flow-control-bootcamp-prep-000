@@ -2,7 +2,61 @@ const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
+//-------------------
+function basicTeenager(basicTeenager){
+  if(basicTeenager >= 13 && basicTeenager < 19){
+    return `You are a teenager!`;
+  } else {
+    return undefined;
+  }
+}
+basicTeenager(13);
+basicTeenager(12);
 
+function teenager(teenager){
+  if(teenager >= 13 && teenager < 19){
+    return `You are a teenager!`;
+  } else {
+    return `You are not a teenager`;
+  }
+}
+teenager(12);
+teenager(13);
+teenager(29);
+
+function ageChecker(ageChecker){
+  if(ageChecker >= 13 && ageChecker < 19){
+    return `You are a teenager!`;
+  } else if(ageChecker < 13){
+    return `You are a kid`;
+  } else {
+    return "You are a grownup"
+  }
+}
+ageChecker(13);
+ageChecker(12);
+ageChecker(29);
+
+function ternaryTeenager(age){
+    conditionToTest: (age>= 13 && age < 19)
+    return
+    valueToBeReturnedIfTrue: `You are a teenager`;
+    valueToBeReturnedIfFalse: `You are not a teenager`;
+  
+}
+
+var switchAge = 14;
+switch (switchAge) {
+  case(switchAge >= 13 && switchAge < 19):
+    return `You are a teenager`;
+    break;
+
+  default:
+    return `You have an age`;
+    break;
+}
+
+//----------------------
 describe('flow-control', () => {
 
   before(done => {
