@@ -1,4 +1,5 @@
-function basicTeenager(age) if(>=13&&<=19) 
+function basicTeenager(age) 
+if(>12&&<20) 
 {
 console.log ('You are a teenager!');
 }
@@ -31,6 +32,6 @@ switch (age) {
   console.log ('You are a teenager!');
   break;
   default:
-  console.log ("You are not a teenager")
+  return ("You are not a teenager")
 }
 
