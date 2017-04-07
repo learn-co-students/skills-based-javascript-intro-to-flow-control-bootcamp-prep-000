@@ -1,19 +1,48 @@
-function basicTeenager(age) {
 
-}
 
-function teenager(age) {
+function basicTeenager(age){
+if (13<=age && age<=19) {
+    return 'You are a teenager!'}
 
-}
+};
 
-function ageChecker(age) {
+basicTeenager(10)
 
-}
+var teenager = function(age){
+if (13<=age && age<=19) {
+    return 'You are a teenager!'}
+else {
+	return 'You are not a teenager'}
+};
 
-function ternaryTeenager(age) {
+teenager(10)
 
-}
+var ageChecker = function(age){
+if (13<=age && age<=19) {
+      return 'You are a teenager!'}
+else if (age<=12) {
+  	return 'You are a kid'}
+else {
+  	return 'You are a grownup'}
+};
 
-function switchAge(age) {
 
-}
+var ternaryTeenager = function(age) {
+return age>=13 && age<=19 ? 'You are a teenager' : 'You are not a teenager'}
+
+ternaryTeenager(9)
+
+var switchAge = function(age){
+  	switch(age) {
+    		case 13:
+    		case 14:
+    		case 15:
+    		case 16:
+    		case 17:
+    		case 18:
+    		case 19:
+          return 'You are a teenager'
+        default:
+          return 'You have an age'
+              }};
+switchAge(15)
