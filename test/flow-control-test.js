@@ -7,7 +7,7 @@ describe('flow-control', () => {
 
   before(done => {
     const src = path.resolve(__dirname, '..', 'flow-control.js')
-
+    console.log (src)
     jsdom.env('<div></div>', [src], (err, window) => {
       if (err) {
         return done(err)
