@@ -178,7 +178,7 @@ if (conditionToTest1) {
 } else {
   // execute this code iff none of the other conditions are met
 }
-```
+
 
 + Define a function `ageChecker` that takes in an age as a parameter. If the age is between 13-19 it should return `"You are a teenager!"`. If the age is 12 or below, it should return `"You are a kid"`. If the age is above 19, it should return `"You are a grownup"`
 
